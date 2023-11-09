@@ -1,0 +1,91 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Tech university</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images/logo.png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <Li><a href="index.html.html">HOME</a></Li>
+                    <Li><a href="About.html.html">ABOUT</a></Li>
+                    <Li><a href="Blog.html.html">BLOG</a></Li>
+                    <Li><a href="Course.html.html">COURSE</a></Li>
+                    <Li><a href="Contact.html.html">CONTACT</a></Li>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="heading">
+        <h1>About US</h1></div>
+
+    </section>
+
+
+<!--About us content-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the Wolrd Largest It University</h1>
+            <p>
+                We are globally the Largest Tech univesity in all over the world!,thanks all persons who make this university to feel proud. we provide much more gold informations to our students to make her career Excellent!,we have 150 teachers staff in one campus and 200 class Rooms,one biggest Play ground,one cafetriya,swimmingpool,and biggest library with computers and all kind of books. 35 Medical library and 20 computer labs and Much more!
+
+            </p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+</section>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We Create our students proffesionally redy to make out of the box content and Website Desgins<br>with Professional teachers and staf.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+  
+        <div class="last">
+            <p>Project by Muhammad Maaz Khan</p>
+</div>
+    </section>
+
+
+
+    <!-- code for java scipt menu close and open  -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
